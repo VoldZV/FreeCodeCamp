@@ -17,3 +17,7 @@ b = a;
 var a = 9
 
 // Declare String Variables
+var myFirstName = "Vladimir",
+    myLastName = "Zvyagin";
+
+// Understanding Uninitialized Variables
