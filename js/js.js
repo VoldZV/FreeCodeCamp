@@ -56,3 +56,4 @@ console.log(FCC, fact); // Change this line
 const sum = 10 + 10;
 
 // Subtract One Number from Another with JavaScript
+const difference = 45 - 33;
