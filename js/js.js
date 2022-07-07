@@ -90,3 +90,13 @@ const quotient = 4.4 / 2.0; // Change this line
 // Finding a Remainder in JavaScript
 const remainder = 11 % 3;
 
+//les 21
+let a = 3;
+let b = 17;
+let c = 12;
+
+// Only change code below this line
+a += 12;
+b += 9;
+c += 7;
+
