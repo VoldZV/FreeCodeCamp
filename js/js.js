@@ -206,3 +206,40 @@ function cc(card) {
 cc(2); cc(3); cc(7); cc('K'); cc('A');
 
 
+// Build JavaScript Objects
+const myDog = {
+    name: 'BOBIK',
+    legs: 4,
+    tails: 1,
+    friends: ['John', 'Peter']
+};
+
+
+// Accessing Object Properties with Dot Notation
+const testObj = {
+    "hat": "ballcap",
+    "shirt": "jersey",
+    "shoes": "cleats"
+  };
+  
+  // Only change code below this line
+  const hatValue = testObj.hat;      // Change this line
+  const shirtValue = testObj.shirt;    // Change this line
+
+//   Using Objects for Lookups
+function phoneticLookup(val) {
+    let result = "";
+    let lookup = {
+      alpha: "Adams",
+      bravo: "Boston",
+      charlie: "Chicago",
+      delta: "Denver",
+      echo: "Easy",
+      foxtrot: "Frank"
+    }
+    result = lookup[val]
+    return result;
+  }
+  phoneticLookup("charlie");
+
+  
