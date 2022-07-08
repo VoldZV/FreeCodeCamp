@@ -280,4 +280,10 @@ const recordCollection = {
   }
   updateRecords(recordCollection, 5439, 'artist', 'ABBA');
 
-  
+//   Iterate Through an Array with a For Loop (lesson 100)
+const myArr = [2, 3, 4, 5, 6];
+let total = 0;
+for (let i = 0; i < myArr.length; i++) {
+  total += myArr[i];
+}
+
